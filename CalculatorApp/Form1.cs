@@ -321,5 +321,10 @@ namespace CalculatorApp
             double.TryParse(textBox2.Text, out memoryValue);
             textBox1.Text = "Stored: " + memoryValue;
         }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

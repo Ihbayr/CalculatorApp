@@ -242,12 +242,13 @@
             // 
             // button19
             // 
+            button19.BackColor = SystemColors.ActiveCaption;
             button19.Location = new Point(749, 585);
             button19.Name = "button19";
             button19.Size = new Size(95, 79);
             button19.TabIndex = 18;
             button19.Text = "=";
-            button19.UseVisualStyleBackColor = true;
+            button19.UseVisualStyleBackColor = false;
             // 
             // button20
             // 
@@ -260,67 +261,75 @@
             // 
             // button21
             // 
+            button21.BackColor = Color.IndianRed;
             button21.Location = new Point(130, 585);
             button21.Name = "button21";
             button21.Size = new Size(95, 79);
             button21.TabIndex = 25;
             button21.Text = "M+";
-            button21.UseVisualStyleBackColor = true;
+            button21.UseVisualStyleBackColor = false;
             button21.Click += button21_Click;
             // 
             // button22
             // 
+            button22.BackColor = Color.IndianRed;
             button22.Location = new Point(130, 484);
             button22.Name = "button22";
             button22.Size = new Size(95, 79);
             button22.TabIndex = 24;
             button22.Text = "MS";
-            button22.UseVisualStyleBackColor = true;
+            button22.UseVisualStyleBackColor = false;
             // 
             // button23
             // 
+            button23.BackColor = Color.IndianRed;
             button23.Location = new Point(130, 383);
             button23.Name = "button23";
             button23.Size = new Size(95, 79);
             button23.TabIndex = 23;
             button23.Text = "MR";
-            button23.UseVisualStyleBackColor = true;
+            button23.UseVisualStyleBackColor = false;
             // 
             // button24
             // 
+            button24.BackColor = Color.IndianRed;
             button24.Location = new Point(130, 279);
             button24.Name = "button24";
             button24.Size = new Size(95, 79);
             button24.TabIndex = 22;
             button24.Text = "MC";
-            button24.UseVisualStyleBackColor = true;
+            button24.UseVisualStyleBackColor = false;
             // 
             // button25
             // 
+            button25.BackColor = SystemColors.ActiveCaption;
             button25.Location = new Point(501, 185);
             button25.Name = "button25";
             button25.Size = new Size(95, 79);
             button25.TabIndex = 28;
             button25.Text = "C";
-            button25.UseVisualStyleBackColor = true;
+            button25.UseVisualStyleBackColor = false;
             // 
             // button26
             // 
+            button26.BackColor = SystemColors.MenuHighlight;
             button26.Location = new Point(622, 185);
             button26.Name = "button26";
             button26.Size = new Size(222, 79);
             button26.TabIndex = 27;
             button26.Text = "CE";
-            button26.UseVisualStyleBackColor = true;
+            button26.UseVisualStyleBackColor = false;
             // 
             // button27
             // 
+            button27.BackColor = SystemColors.MenuHighlight;
             button27.Location = new Point(256, 185);
             button27.Name = "button27";
             button27.Size = new Size(216, 79);
             button27.TabIndex = 26;
             button27.Text = "backspace";
-            button27.UseVisualStyleBackColor = true;
+            button27.UseVisualStyleBackColor = false;
+            button27.Click += button27_Click;
             // 
             // Form1
             // 
